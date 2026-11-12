@@ -4,7 +4,7 @@ App personal de gastos, gastos fijos, precios y deudas. Tema oscuro, en pesos.
 Tiene su propio repo (`santistark-ctrl/mis-finanzas`) para poder instalarse en el celular como app separada de Mis Hábitos.
 Antes vivía en la carpeta `finanzas/` del repo de Mis Hábitos; mientras estuvo ahí, el celular la tomaba como parte de esa app.
 
-- Sitio: https://santistark-ctrl.github.io/mis-finanzas/ (GitHub Pages, rama `main`, raíz del repo)
+- Sitio: https://santistark-ctrl.github.io/Mis-finanzas/ (GitHub Pages, rama `main`, raíz del repo)
 - Archivos: `index.html` (toda la app, HTML + CSS + JS sin dependencias), `manifest.json`, `sw.js` (funciona sin conexión), `icon-192.png`, `icon-512.png`, `fondo-cara.png`.
 - Los datos y el token se guardan por sitio (`santistark-ctrl.github.io`), no por carpeta: por eso la mudanza no los afectó y se sigue usando el token de Mis Hábitos.
 - Se edita directo `index.html`; no hay paso de armado. Publicar: commit y push a `main`.
